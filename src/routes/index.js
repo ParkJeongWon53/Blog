@@ -1,6 +1,8 @@
 import { createRouter, createWebHashHistory } from "vue-router"
 import Home from './Home'
-import About from './About'
+import Skill from './Skill'
+import Protfolio from './Protfolio'
+import Contact from './Contact'
 
 export default createRouter ({
   history: createWebHashHistory(), // Hash 모드  /#/
@@ -10,8 +12,16 @@ export default createRouter ({
       component: Home
     },
     {
-      path:'/about',
-      component: About
-    }
+      path:'/skill',
+      component: Skill
+    },
+    {
+      path:'/protfolio',
+      component: Protfolio
+    },
+    {
+      path:'/contact',
+      component: Contact
+    },
   ]
 })
