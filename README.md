@@ -1,3 +1,5 @@
+[현대의 해파이토스 블로그 보기](https://benevolent-biscochitos-46a629.netlify.app)
+
 # Vue3 블로그 만들기
 [Bootstrap](https://getbootstrap.com/docs/5.1/components/buttons/)<br>
 [vue-router](https://router.vuejs.org/)
@@ -75,3 +77,7 @@ export default createStore({
   }
 })
 ```
+### Skill
+1. 사용할 수 있는 기능을 카드형태로 구현!!
+2. 카드는 플립형태로 회전하여 뒤에 내용작성!
+
