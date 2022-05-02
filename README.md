@@ -71,8 +71,7 @@ actions: ''  // methods 와 유사하여 함수들을 만들어 사용할 수 �
 import { createStore } from 'vuex'
 import contact from './contact'
 
-export default createStore({
-  modules: {
+export default createStore({ 
     contact //모듈화
   }
 })
@@ -81,3 +80,6 @@ export default createStore({
 1. 사용할 수 있는 기능을 카드형태로 구현!!
 2. 카드는 플립형태로 회전하여 뒤에 내용작성!
 
+### Protfolio
+
+1. 펼쳐지는 ui를 사용하여 시각적인 효과 증가.
