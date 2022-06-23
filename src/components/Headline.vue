@@ -15,9 +15,8 @@
 <style lang="scss" scoped>
 @import "~/scss/main";
 
-  .container{
-    padding-top: 40px;
-  }
+.container{
+  padding-top: 40px;
   h1 {
     line-height: 1;
     font-family: 'Noto Sans KR', sans-serif;
@@ -25,10 +24,19 @@
     span {
       color: $primary;
     }
-  }
   p {
       margin: 30px 0;
       color: $gray-600;
     }
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding-top: 0;
+    h1 {
+      font-size: 35px;
+    }
+  }
+}
+
   
 </style>

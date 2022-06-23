@@ -114,7 +114,6 @@ export default {
   }
   .photo {
     width:350px;
-    background-color:blue;
     z-index:3;
     transition:1s;
     // display: none;
@@ -187,5 +186,48 @@ export default {
   height: 350px;
   background-color:$teal-200;
   border-radius:10px; 
+}
+
+@include media-breakpoint-down(sm) {
+  .box {
+    width: 400px;
+    height: 700px;
+    div{
+      left:50%;
+      top:50%;
+    }
+    .photo {
+
+    }
+    .explanation {
+      width:350px;
+      font-size: 12px;
+    }
+  }
+  .site {
+    a {
+      width: 75x;
+      height: 25px;
+      font-size: 12px;
+    }
+  }
+  .box:hover .photo {
+    left:20px;
+    top:20px;
+    transform:translate(0, 0);    
+  }
+  .box:hover .explanation {
+    top:410px;
+    left:200px;
+    right:0;
+    height: 300px;
+    background-color:$teal-200;
+    border-radius:10px; 
+  }
+  .box:hover .site {
+    top:610px;
+    left:200px;
+  }
+  
 }
 </style>

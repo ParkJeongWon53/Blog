@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="card_back">
-            <p>HTML입니다. 웹표준을 준수합니다.</p>
+            <p>웹표준을 준수합니다.</p>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="card_back">
-            <p>scss. 웹표준을 준수합니다.</p>
+            <p>CSS와 거의 같은 문법을 지원하는 SCSS 를 사용합니다.</p>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
             </div>
           </div>
           <div class="card_back">
-            <p>Vuex</p>
+            <p>싱글 페이지 애플리케이션 </p>
           </div>
         </div>
       </div>
@@ -142,6 +142,11 @@ export default {
         .card_back {
             font-size:20px;
             transform:rotateY(-180deg);
+            display: table;
+            p{
+              display: table-cell;
+              vertical-align: middle;
+            }
         }
         img {
           width: 100%;

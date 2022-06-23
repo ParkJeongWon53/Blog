@@ -99,5 +99,39 @@ export default {
       }
     }
   }
+  @include media-breakpoint-down(lg)  {
+    .title{
+      p {
+        font-size: 20px;
+      }
+    }
+    .profile{
+      .photo{
+        width: 200px;
+        height: 200px;
+        img {
+        width: 108%;
+      }
+      }
+      .detail{
+        p{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-down(md){
+    .title{
+      p {
+        font-size: 15px;
+      }
+    }
+    .detail{
+        p{
+          font-size: 15px;
+        }
+      }
+  }
+  
 }
 </style>

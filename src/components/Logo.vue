@@ -1,5 +1,7 @@
 <template>
-  <RouterLink to="/" class="logo">
+  <RouterLink
+    to="/"
+    class="logo">
     현대의 <span>헤파이토스</span>
   </RouterLink>
 </template>
