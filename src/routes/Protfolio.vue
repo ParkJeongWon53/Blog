@@ -2,7 +2,7 @@
   <div class="container">
     <div class="box_wrap">
       <div class="title">
-        <p>영화검색 사트</p>
+        <p>영화검색 사이트 </p>
       </div>
       <div class="box">
         <div class="photo">
@@ -195,9 +195,6 @@ export default {
     div{
       left:50%;
       top:50%;
-    }
-    .photo {
-
     }
     .explanation {
       width:350px;
